@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      <Navbar/>
       <main className="main-content">
         <aside className="sidebar">
           {/* Agrega contenido para la barra lateral */}
